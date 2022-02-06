@@ -60,3 +60,6 @@ Gets the actual position of mouse, in pixels.
 
 * `onScreen(x, y)`  
 Checks if (x,y) cordinates are on the screen.
+
+* `onChange(x, y, width, size, tolerance)`  
+Detects change on screen at specified rectangle coordinates, with specified tolerance. (Higher tolerance means less pixels needs to change to trigger the function).
