@@ -1,5 +1,5 @@
-#include <stdlib.h>
-#include "c-autogui.h"
+#define C_AUTOGUI_IMPLEMENTATION
+#include "cautogui.h"
 
 int main() {
 	system("start notepad");
