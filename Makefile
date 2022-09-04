@@ -1,5 +1,5 @@
 CC=gcc
 CFLAGS=-std=c99 -pedantic -Wall -Wextra
 
-c-autogui:
+main:
 	$(CC) main.c $(CFLAGS) -o main
