@@ -1,4 +1,5 @@
-CC ="C:\mingw64\bin\gcc.exe"
+CC=gcc
+CFLAGS=-std=c99 -pedantic -Wall -Wextra
 
 c-autogui:
-	$(CC) c-autogui.c main.c -o main
+	$(CC) main.c $(CFLAGS) -o main
